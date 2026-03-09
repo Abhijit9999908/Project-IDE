@@ -13,19 +13,7 @@ export const providers = {
     requiresKey: true,
     docsUrl: 'https://antigravity.ai',
   },
-  orchids: {
-    id: 'orchids',
-    name: 'Orchids.app AI',
-    icon: '🌸',
-    models: [
-      { id: 'orchids-pro', name: 'Orchids Pro', description: 'Full-featured', maxTokens: 32000 },
-      { id: 'orchids-lite', name: 'Orchids Lite', description: 'Lightweight', maxTokens: 8000 },
-    ],
-    defaultModel: 'orchids-pro',
-    apiEndpoint: 'https://api.orchids.app/v1/chat/completions',
-    requiresKey: true,
-    docsUrl: 'https://orchids.app',
-  },
+
   openai: {
     id: 'openai',
     name: 'OpenAI',
